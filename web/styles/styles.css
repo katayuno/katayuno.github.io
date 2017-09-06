@@ -1,0 +1,32 @@
+.belt {
+  display:  flex;
+  margin: 10px;
+  border: 5px solid grey;
+  width: 817px;
+  padding: 10px;
+}
+
+.belt fieldset {
+  width: 500px;
+  display: 1;
+  font-size: large;
+}
+
+.description fieldset {
+  width: 820px;
+  margin: 10px;
+}
+
+fieldset {
+  background-color: #E6E6E6;
+}
+
+.epic-title {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.karateka {
+  display: 2;
+  width: 300px;
+  height: 384px;
+}
