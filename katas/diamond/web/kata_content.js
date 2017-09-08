@@ -1,11 +1,28 @@
 const kata = {
-  description: `<p></p>`,
+  description: `<p>
+                  Alistair Cockburn wrote a blog <a href="http://alistair.cockburn.us/Thinking+before+programming">post</a> about this kata, 
+                  in response to the Seb Rose kata <a href="http://claysnow.co.uk/recycling-tests-in-tdd/">proposition</a>.
+                </p>`,
 
-  yellowBelt: `<p></p>`,
+  yellowBelt: `<p>
+                Given a letter, print a diamond starting with 'A' with the supplied letter at the widest point.
 
-  greenBelt: `<p></p>`,
+                For example: print-diamond 'C' prints
 
-  redBelt: `<p></p>`,
+              <pre>
+                <code>
+    A
+   B B
+  C   C
+   B B
+    A
+                </code>
+              </pre>
+              </p>`,
 
-  blackBelt: `<p></p>`
+  greenBelt: `<p>TBD...</p>`,
+
+  redBelt: `<p>TBD...</p>`,
+
+  blackBelt: `<p>TBD...</p>`
 }
