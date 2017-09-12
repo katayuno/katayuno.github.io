@@ -2,20 +2,24 @@ import test from 'tape';
 
 // COMPONENT TO TEST ------------------------------------------------
 const FizzBuzz = function () {
-    let numbersList = [];
+    const numbersList = [];
     const FIZZ = 3;
     const BUZZ = 5;
     const MIN = 1;
     const MAX = 100;
 
+    const transforms = {};
+    transforms[FIZZ] = 'Fizz';
+    transforms[BUZZ] = 'Buzz';
+
     const generateList = function () {
         for (let ii = MIN; ii <= MAX; ii++) {
             if (isFizz(ii) && isBuzz(ii)) {
-                numbersList.push('FizzBuzz');
+                numbersList.push(transforms[FIZZ] + transforms[BUZZ]);
             } else if (isFizz(ii)) {
-                numbersList.push('Fizz');
+                numbersList.push(transforms[FIZZ]);
             } else if (isBuzz(ii)) {
-                numbersList.push('Buzz');
+                numbersList.push(transforms[BUZZ]);
             } else {
                 numbersList.push(ii);
             }
