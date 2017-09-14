@@ -16,7 +16,7 @@ const kata = {
                   <li>If the number is divisible by 3, write "Fizz" instead.</li>
                   <li>If the number is divisible by 5, write "Buzz" instead</li>
                   <li>If the number is divisible by both 3 and 5, write "FizzBuzz".</li>
-                  <li>If the number is not divisible neither by 3 nor 5, write the number.</li>
+                  <li>If the number is not divisible neither by 3 nor 5, write the string representation of the number.</li>
                 </ul>
               </p>
 
@@ -30,12 +30,8 @@ const kata = {
 
     greenBelt: `<p>
                   <ul>
-                    <li>
-                      A number is fizz if it is divisible by 3 or if it has a 3 in it.
-                    </li>
-                    <li>
-                      A number is buzz if it is divisible by 5 or if it has a 5 in it.
-                    </li>
+                    <li>A number is fizz if it is divisible by 3 or if it has a 3 in it.</li>
+                    <li>A number is buzz if it is divisible by 5 or if it has a 5 in it.</li>
                   </ul>
                 </p>
 
@@ -49,13 +45,17 @@ const kata = {
 
     redBelt: `<p>
                 <ul>
-                  <li>Restrictions to come...</li>
+                  <li>Dinamically define range of numbers in the list.</li>
+                  <li>Make system case-insensitive.</li>
+                  <li>Do not use primitives.</li>
                 </ul>
               </p>`,
 
     blackBelt: `<p>
                   <ul>
-                    <li>Restrictions to come...</li>
+                    <li>Do not use conditionals.</li>
+                    <li>Use methods (no returns).</li>
+                    <li>Apply solid to dead.</li>
                   </ul>
                 </p>`
 }
