@@ -4,7 +4,7 @@ const kata = {
                 </p>
 
                 <p>
-                  In this kata we are going to be a scribe who will have to write down the number of soldiers that the different officers indicate us, but of course they will tell us the number and we will have to write it in Roman numerals. If you do not know how this system works you can review this article.
+                  In this kata we are going to be a scribe who will have to write down the number of soldiers that the different officers indicate us, but of course they will tell us the number and we will have to write it in Roman numerals. If you do not know how this system works you can review <a href="http://www.novaroma.org/via_romana/numbers.html" target="_blank">this article</a>.
                 </p>`,
 
   yellowBelt: `<p>
