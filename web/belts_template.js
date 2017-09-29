@@ -11,7 +11,7 @@ const template = `
 
   <div class="belt">
     <div class="karateka">
-      <img src="../../../web/img/yellow_belt.png" />
+      <img src="../../../web/img/belts/yellow_belt.png" />
     </div>
     <fieldset>
       <legend class="epic-title">Yellow belt</legend>
@@ -21,7 +21,7 @@ const template = `
 
   <div class="belt">
     <div class="karateka">
-      <img src="../../../web/img/green_belt.jpg" />
+      <img src="../../../web/img/belts/green_belt.jpg" />
     </div>
     <fieldset>
       <legend class="epic-title">Green belt</legend>
@@ -31,7 +31,7 @@ const template = `
 
   <div class="belt">
     <div class="karateka">
-      <img src="../../../web/img/red_belt.png" style="padding-left: 70px;" />
+      <img src="../../../web/img/belts/red_belt.png" style="padding-left: 70px;" />
     </div>
     <fieldset>
       <legend class="epic-title">Red belt</legend>
@@ -41,7 +41,7 @@ const template = `
 
   <div class="belt">
     <div class="karateka">
-      <img src="../../../web/img/black_belt.png" />
+      <img src="../../../web/img/belts/black_belt.png" />
     </div>
     <fieldset>
       <legend class="epic-title">Black belt</legend>
