@@ -11,11 +11,11 @@ const template = `
 
   <div class="belt">
     <div class="karateka">
-      <img src="../../../web/img/bank_account/sizar.png" />
+      <img src="../../../web/img/bank_account/intern.png" />
     </div>
     <fieldset>
-      <legend class="epic-title">The sizar</legend>
-      <div id="sizar"></div>
+      <legend class="epic-title">The intern</legend>
+      <div id="intern"></div>
     </fieldset>
   </div>
 
@@ -52,7 +52,7 @@ const template = `
 function initialize() {
   document.getElementById('kata').innerHTML = template
   document.getElementById('descriptionContent').innerHTML = kata.description
-  document.getElementById('sizar').innerHTML = kata.yellowBelt
+  document.getElementById('intern').innerHTML = kata.yellowBelt
   document.getElementById('software-developer').innerHTML = kata.greenBelt
   document.getElementById('veteran').innerHTML = kata.redBelt
   document.getElementById('most-veteran').innerHTML = kata.blackBelt
