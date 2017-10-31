@@ -8,7 +8,7 @@ const kata = {
                 </p>
 
                 <p>
-                  Flywire is thinking of an exercise designed for the fellows who want to join the company. Each developer asks for conditions for that exercise. Just for participating, they will invite you to breakfast. The more conditions you meet, the greater your reward will be. Just think about the riches that await you.
+                  Flywire is thinking of an exercise designed for the candidates who want to join the company. Each developer adds their conditions in the exercise. Just for participating, they will invite you to breakfast. The more conditions you meet, the greater your reward will be. Just think about the wealth that awaits you.
                 </p>
 
                 <p>
@@ -48,7 +48,7 @@ const kata = {
                 </p>`,
 
     redBelt: `<p>
-                <p>The bank account shows the deposits, withdrawals and transfer between accounts</p>
+                <p>The bank account shows the deposits, withdrawals and transfers between accounts</p>
                   <p>Example</p>
                   <ul>
                     <li>The first client makes a deposit of 1000.00 on 01/04/2014</li>
