@@ -32,10 +32,10 @@ const kata = {
     greenBelt: `<p>
                   <ul>
                     <li>The rover knows its final position.</li>
-                    <li>The rover can receive a list of letter as command.</li>
-                    <li>When the rover recives the command "M" it moves to forward.</li>
-                    <li>When the rover recives the command "R" it turns 90 degrees to right.</li>
-                    <li>When the rover recives the command "L" it turns 90 degrees to left.</li>
+                    <li>The rover receives a list of letters as command.</li>
+                    <li>When the rover recives the command "M" it moves forward.</li>
+                    <li>When the rover recives the command "R" it turns 90 degrees right.</li>
+                    <li>When the rover recives the command "L" it turns 90 degrees left.</li>
                   </ul>
                 </p>
 
@@ -59,7 +59,7 @@ const kata = {
     redBelt: `<p>
                 <ul>
                  <li>Now the rover has to know the world dimensions.</li>
-                 <li>If the rover pass the world's limit, it appears in the opposite worlds position (Planets are spherical).</li>
+                 <li>If the rover passes the world's edge, it appears in the opposite world position (Planets are spherical).</li>
                 </ul>
               </p>
 
