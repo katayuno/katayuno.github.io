@@ -4,6 +4,19 @@
     <link rel="stylesheet" href="web/styles/styles.css">
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
   </head>
+  <script type="text/javascript">
+    function pingKatayunoApp() {
+        var http = new XMLHttpRequest();
+        var url = "https://katayuno-app.herokuapp.com/ping";
+        http.open("POST", url, true);
+
+        http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        http.send();
+    }
+
+    window.onload = pingKatayunoApp;
+  </script>
   <body>
     <div class="description">
       <fieldset>
@@ -60,6 +73,7 @@
           <li><a href="katas/bank_account/web/description.html">Bank Account (Flywire version)</a></li>
           <li><a href="https://zerolive.github.io/doom_kata/" target="_blank">DooM battle simulator</a></li>
           <li><a href="katas/mars_rover/web/description.html">Mars Rover</a></li>
+          <li><a href="http://katayuno-app.herokuapp.com/katas/4" target="_blank">Greeting</a></li>
           <li><a href="katas/gilded_rose/web/description.html">gilded_rose</a></li>
           <li><a href="katas/minesweeper/web/description.html">minesweeper</a></li>
           <li><a href="katas/tennis/web/description.html">tennis</a></li>
